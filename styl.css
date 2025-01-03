@@ -63,7 +63,7 @@ strong{
 @media screen and (min-width:0px) and (max-width:375px){
     .card{
         margin: 4px;
-        width: 95%;
+        width: 90%;
         height: 600px;
         display: flex;
         flex-wrap: wrap;
