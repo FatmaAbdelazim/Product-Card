@@ -55,7 +55,9 @@ strong{
     color: hsl(158, 36%, 37%);
     padding-right: 9px;
 }
-
+.btn:hover{
+    background-color: hsl(158, 55%, 16%);;
+}
 
 
 @media screen and (min-width:0px) and (max-width:375px){
