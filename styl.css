@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Molle&family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn{
+    width: 90%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(158, 36%, 37%);
+    border-radius: 8px;
+    padding: 3px;
+    color: white;
+    margin-bottom: 6px;
+}
+.btn i{
+    margin-right: 8px;
+}
+p{
+    font-family: "Fraunces", serif;
+    font-size: 18px;
+    font-weight: 300;
+    
+}
+h1,strong{
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.m{
+  display: flex;
+  padding-right: 3px;
+  align-items: center;
+}
+i{
+    text-decoration: line-through;
+}
+strong{
+    color: hsl(158, 36%, 37%);
+    padding-right: 9px;
+}
+
+
+
+@media screen and (min-width:0px) and (max-width:375px){
+    .card{
+        margin: 4px;
+        width: 95%;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .img{
+        background-size: cover;
+        background-image: url(images/image-product-mobile.jpg);
+        width: 100%;
+        height: 35vh;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .child{
+        padding: 15px;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+        height: 65vh;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 8px 8px 0px 0px;
+    
+    }
+}
+ @media screen and (min-width:376px) and (max-width:1440px){
+    .card{
+        margin: 4px;
+        width: 45%;
+        height: 500px;
+        display: flex;
+    }
+    .img{
+        background-size: cover;
+        background-image: url(images/image-product-desktop.jpg);
+        width: 50%;
+        height: 80vh;
+        border-radius: 8px 0px  0px 8px;
+      
+    }
+    .child{
+        padding: 15px;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 45%;
+        height: 75vh;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 0px 8px 8px 0px ;
+    
+    }  
+} 
