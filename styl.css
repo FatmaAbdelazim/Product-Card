@@ -20,7 +20,7 @@ section{
 
 .btn{
     width: 90%;
-    height: 35px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,18 +37,20 @@ p{
     font-family: "Fraunces", serif;
     font-size: 18px;
     font-weight: 300;
+    margin-bottom: 5px;
 }
 h1,strong{
     font-family: "Montserrat", serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 32px;
+    margin-bottom: 5px;
 }
 .m{
   display: flex;
   padding-right: 3px;
   align-items: center;
 }
-i{
+.m p{
     text-decoration: line-through;
 }
 strong{
@@ -61,7 +63,7 @@ strong{
 .card{
     margin: 4px;
     width: 50%;
-    height: 50vh;
+    height: 30vh;
     display: flex;
     align-items: center;
 }
@@ -69,8 +71,8 @@ strong{
     background-size: cover;
     background-position:center ;
     background-image: url(images/image-product-desktop.jpg);
-    width: 50%;
-    height: 75vh;
+    width: 45%;
+    height: 65vh;
     border-radius: 8px 0px  0px 8px;
 }
 .child{
@@ -78,9 +80,9 @@ strong{
     padding-left: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    width: 50%;
-    height: 75vh;
+    justify-content: space-between;
+    width: 45%;
+    height: 65vh;
     background-color: hsl(0, 0%, 100%);
     border-radius: 0px 8px 8px 0px ;
 
