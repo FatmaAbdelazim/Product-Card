@@ -88,7 +88,7 @@ strong{
 
 }  
 
-@media screen and (min-width:0px) and (max-width:450px){
+@media screen and (min-width:0px) and (max-width:599px){
     .card{
         margin: 4px;
         width: 100%;
@@ -111,6 +111,41 @@ strong{
         justify-content: space-between;
         width: 99%;
         height: 60vh;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 8px 8px 0px 0px;
+    
+    }
+    h1,strong{
+        font-size: 30px;
+    }
+    p{
+        font-size: 17px;
+        font-weight: 310px;
+    }
+}
+@media screen and (min-width:600px) and (max-width:1200px){
+    .card{
+        margin: 4px;
+        width: 80%;
+        height: 60vh;
+        display: flex;
+    }
+    .img{
+        background-size: cover;
+        background-position: center;
+        background-image: url(images/image-product-mobile.jpg);
+        width: 50%;
+        height: 90vh;
+        border-radius: 8px 8px 0px 0px;
+    }
+    .child{
+        padding: 15px;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+        height: 90vh;
         background-color: hsl(0, 0%, 100%);
         border-radius: 8px 8px 0px 0px;
     
