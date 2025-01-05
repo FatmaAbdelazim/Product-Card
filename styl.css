@@ -108,7 +108,7 @@ strong{
         padding-left: 30px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 99%;
         height: 60vh;
         background-color: hsl(0, 0%, 100%);
