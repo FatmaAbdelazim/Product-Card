@@ -85,7 +85,7 @@ strong{
 
 }  
 
-@media screen and (min-width:0px) and (max-width:375px){
+@media screen and (min-width:0px) and (max-width:450px){
     .card{
         margin: 4px;
         width: 365px;
@@ -113,31 +113,3 @@ strong{
     
     }
 }
- /* @media screen and (min-width:376px) and (max-width:1440px){
-    .card{
-        margin: 4px;
-        width: 45%;
-        height: 500px;
-        display: flex;
-    }
-    .img{
-        background-size: cover;
-        background-image: url(images/image-product-desktop.jpg);
-        width: 50%;
-        height: 80vh;
-        border-radius: 8px 0px  0px 8px;
-      
-    }
-    .child{
-        padding: 15px;
-        padding-left: 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        width: 45%;
-        height: 75vh;
-        background-color: hsl(0, 0%, 100%);
-        border-radius: 0px 8px 8px 0px ;
-    
-    }  
-}  */
